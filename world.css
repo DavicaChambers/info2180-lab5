@@ -1,1 +1,55 @@
-/* Add your own styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica,Times;
+}
+
+body{
+	background-color: rgb(204, 200, 200);
+}
+
+
+header{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	text-transform:uppercase;
+    grid-row: 1;
+	padding: 60px 40px;
+    background-color: rgb(24, 209, 241)
+	
+	
+}
+
+
+main{
+	display: grid;
+	grid-gap: 25px;
+	grid-row: 2;
+}
+
+#controls{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+#country{
+	border: none;
+	width: 50%;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+#buttons{
+	margin-top: 0.5rem;
+}
+
+#result{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
